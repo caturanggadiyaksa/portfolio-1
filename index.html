@@ -14,17 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
 
     <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.1.1/css/all.css">
-    <style>
-        
-        .dark-mode {
-            background-color: black;
-        }
-        .dark {
-            background-color: black;
-            color: aliceblue;
-        }
-        
-    </style>
+    
 
 </head>
 <body>
@@ -51,19 +41,33 @@
 </header>
 <!-- bagian header selesai-->
 
-<!--<div id="home" class="fa fa-bars"></div>-->
-<button style="width: 5rem; height: 5rem;"; onclick="myFunction()"><i class="fa-light fa-moon"></i></button>
 
+<!-- button tema dimulai-->
+
+    <div class="dark-light-theme">
+        <button style="width: 5rem; height: 5rem; position: fixed; bottom: 5%; border-radius: 50%; "; onclick="myFunction()"><i class="fa-light fa-moon"></i></button>
+        
+    </div>
+
+    <div class="">
+        <button style="width: 5rem; height: 5rem; position: fixed; bottom: 5%; right: 25%; border-radius: 50%; "; onclick=""><i class="fa-light fa-moon"></i></button>
+        
+    </div>
+
+    <div class="">
+        <button style="width: 5rem; height: 5rem; position: fixed; bottom: 5%; left: 50%; border-radius: 50%; "; onclick=""><i class="fa-light fa-moon"></i></button>
+        
+    </div>
+   
     <script>
     function myFunction() {
         var element = document.body;
         element.classList.toggle("dark-mode");
     
     }
-
-    
-    
     </script>
+<!-- Bagian button theme selesai -->
+
 <!-- Bagian Home started -->
 <section id="home" class="home">
     
@@ -211,16 +215,18 @@
             <h3 class="title">contact info</h3>
 
             <div class="info">
-                <h3 class="fas fa-envelope"><i></i> adiyaksacaturangga@gmail.com </h3>
+                <h3 ><i class="fas fa-envelope"></i> adiyaksacaturangga@gmail.com</h3>
                 <h3> <i class="fas fa-phone"></i> +62 895-2970-7813 </h3>
                 <h3><i class="fas fa-map-marker-alt"></i>DS Tlogoharum kec. wedarijaksa, pati, jawa tengah</h3>
             </div>
             
-            <iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/caturangga/cl4yauuac001z15qjjzwiuuxq.html?title=false&access_token=pk.eyJ1IjoiY2F0dXJhbmdnYSIsImEiOiJjbDR5N3JrZW0wMzJhM2JxdmFyaWdtb3AxIn0.jBPID5RxfBeVaR0bC-vTuQ&zoomwheel=false#9.48/-6.7825/110.9609" title="Satellite Streets" style="border:none;"></iframe>
             
         </div>
 
-        <form action="">
+        <iframe width='100%' height='400px' src="https://api.mapbox.com/styles/v1/caturangga/cl4yauuac001z15qjjzwiuuxq.html?title=false&access_token=pk.eyJ1IjoiY2F0dXJhbmdnYSIsImEiOiJjbDR5N3JrZW0wMzJhM2JxdmFyaWdtb3AxIn0.jBPID5RxfBeVaR0bC-vTuQ&zoomwheel=false#9.48/-6.7825/110.9609" title="Satellite Streets" style="border:none;"></iframe>
+            
+
+        <form action="" >
             <input type="text" placeholder="name" class="box">
             <input type="text" placeholder="email" class="box">
             <input type="text" placeholder="project" class="box">
