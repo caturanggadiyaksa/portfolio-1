@@ -50,7 +50,7 @@
     </div>
 
     <div class="">
-        <button style="width: 5rem; height: 5rem; position: fixed; bottom: 5%; right: 25%; border-radius: 50%; "; onclick=""><i class="fa-light fa-moon"></i></button>
+        <button style="width: 5rem; height: 5rem; position: fixed; bottom: 5%; right: 25%; border-radius: 50%; "; onclick="darktema()"><i class="fa-light fa-moon"></i></button>
         
     </div>
 
@@ -64,6 +64,11 @@
         var element = document.body;
         element.classList.toggle("dark-mode");
     
+    }
+
+    function darktema() {
+        var element = document.body;
+        element.classList.toggle("dark-mode-github")
     }
     </script>
 <!-- Bagian button theme selesai -->
