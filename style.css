@@ -95,12 +95,17 @@ section {
     font-weight: 600;
 }
 
-.dark-mode {
+.blue-mode {
     background-color: #051622;
     --theme-bg-color: #051622;
     --border-right-color: #333846;
     --theme-bg-header-color: #1BA098;
     --font-theme-color: #fff;
+}
+
+
+.dark-mode-github {
+    background-color: #0a0c10;
 }
 
 /* button theme section */
