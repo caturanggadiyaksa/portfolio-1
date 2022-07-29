@@ -1,0 +1,21 @@
+.btn-thema {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.btn-thema .btn-tema {
+    height: 10rem;
+    width: 10rem;
+    margin: 2rem;
+}
+
+.btn-thema .btn-tema button {
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    z-index: 9999;
+}
+
