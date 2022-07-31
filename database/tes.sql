@@ -1,0 +1,1 @@
+INSERT INTO `email` (`id`, `nama`, `email`, `project`, `pesan`, `created_at`) VALUES (NULL, 'catur', 'catur@gmail.com', 'membuat map di laravel', 'buatlah map yg simpel dan sesuai kebutuhan', '2022-07-31');
