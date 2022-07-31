@@ -24,6 +24,12 @@
     --font-color: #DEB992;
     --font-theme-color: rgb(0, 0, 0);
 }
+
+* {box-sizing: border-box;}
+.mySlide {display: none;}
+img {vertical-align: middle;}
+
+
 * {
     font-family: 'Nunito', sans-serif;
     margin: 0;
@@ -128,7 +134,50 @@ header {
     background-color: var(--theme-bg-header-color);
     
 }
-header .user img {
+
+/* SLideshow container */
+.imageslider-container {
+    max-width: 15rem;
+    position: relative;
+    margin: auto;
+}
+
+.mySlide img {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: .7rem solid var(--color);
+}
+
+/* bullet  */
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+/*
+header .user {
     
     height: 15rem;
     width: 15rem;
@@ -137,6 +186,7 @@ header .user img {
     margin-bottom: 1rem;
     border: .7rem solid var(--color);
 }
+*/
 header .user .name {
     font-size: 2rem;
     color: #222;
