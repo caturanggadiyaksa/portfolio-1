@@ -264,11 +264,11 @@
 
 
         <form action="config/email.php" method="POST">
-            <input type="text" placeholder="name" class="box">
-            <input type="text" placeholder="email" class="box">
-            <input type="text" placeholder="project" class="box">
-            <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
-            <button type="submit" class="btn">send <i class="fas fa-paper-plane"></i></button>
+            <input name="name" type="text" placeholder="name" class="box">
+            <input name="email" type="text" placeholder="email" class="box">
+            <input name="project" type="text" placeholder="project" class="box">
+            <textarea name="pesan" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+            <button name="submit" type="submit" class="btn">send <i class="fas fa-paper-plane"></i></button>
         </form>
     </div>
 </section>
@@ -284,3 +284,4 @@
 
 </body>
 </html>
+
