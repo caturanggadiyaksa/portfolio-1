@@ -21,7 +21,7 @@
     --theme-bg-color: #fafafa;
     --border-right-color: #efefef;
     --theme-bg-header-color: #fafafa;
-    --font-color: #DEB992;
+    --font-color: #f299af;
     --font-theme-color: rgb(0, 0, 0);
 }
 
@@ -64,6 +64,9 @@ body {
     overflow-x: hidden;
     padding-left: 35rem;
     background-color: var(--theme-bg-color);
+    
+    
+    
 }
 section {
     min-height: 100vh;
@@ -234,7 +237,10 @@ header .navbar ul li a:hover {
     justify-content: center;
     flex-flow: column;
     padding: 0 15rem;
+    
 }
+
+
 .home h3 {
     font-size: 2.5rem;
     color: var(--font-theme-color);
