@@ -87,3 +87,24 @@ const geocoder = new MapboxGeocoder({
 
 document.getElementById('geocoder').appendChild(geocoder.onAdd(map));
 
+
+
+
+map.on('style.load', () => {
+    map.setFog({}); //set default atmosphere
+
+});
+
+//add geolocate control
+map.addControl(
+    new mapboxgl.GeolocateControl({
+        positionOptions: {
+            enableHighAccuracy: true
+
+        },
+        //when active the map will receive 
+        trackUserLocation: true,
+
+        showUserHeading: true
+    })
+);
