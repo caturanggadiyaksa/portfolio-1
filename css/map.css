@@ -29,7 +29,8 @@
 .geocoder {
   z-index: 1;
   width: 25%;
-  top: 10px;
+  height: 5%;
+  margin-top: 10px;
 }
 
 .mapboxgl-ctrl-geocoder {
