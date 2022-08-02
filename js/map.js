@@ -108,3 +108,47 @@ map.addControl(
         showUserHeading: true
     })
 );
+
+
+map.on('click', (e) => {
+    const longtitude = e.lngLat.lng
+    const lattidude = e.lngLat.lat
+    console.log({longtitude, lattidude})
+})
+
+
+/*
+map.on('load', () => {
+    map.addSource('route', {
+        'type': 'geojson',
+        'data': {
+            'type': 'Feature',
+            'properties': {},
+            'geometry': {
+                'type': 'LineString',
+                'coordinates': [
+                    //110.9902983654751, lattidude: -6.778806977469188
+                    //111.00155304236984, lattidude: -6.770087191544121
+                    [-6.75221554699155, 111.0443915674374],
+                    [-6.750402555131956, 111.05143147100864]
+                ]
+            }
+        }
+    });
+
+    map.addLayer({
+        'id': 'route',
+        'type': 'line',
+        'source': 'route',
+        'layout': {
+            'line-join': 'round',
+            'line-cap': 'round'
+        },
+
+        'paint': {
+            'line-color': '#888',
+            'line-width': 8
+        }
+    });
+});
+*/
