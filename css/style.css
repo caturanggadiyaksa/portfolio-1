@@ -64,7 +64,63 @@ Aqua = #008F95
     --theme-bg-header-color: #fafafa;
     --font-color:#062F4F;
     --font-theme-color: rgb(0, 0, 0);
+    --font-about-color: #1BA098;
+
+
+    --darkMode--header-color: #444444;
 }
+
+
+.blue-mode {
+    /* background-color: #051622; */
+    /* background-color: #008F95; */
+    background-color: #1BA098;
+    /* --theme-bg-color: #008F95; */
+    --theme-bg-color: #051622;
+    --border-right-color: #333846;
+    /* --theme-bg-header-color:  #051622; */
+    --theme-bg-header-color: #42C2FF;
+    --font-theme-color: #fff;
+}
+
+
+.dark-mode-github {
+    background-color: #171717;
+    /* color: #fff; */
+     --font-theme-color: #fff;
+     --font-khusus-color: #1BA098;
+    
+}
+
+.dark-mode-github  header{
+    background-color: var(--darkMode--header-color);
+}
+
+.dark-mode-github .home h3 h1 p{
+    color: var(--font-theme-color);
+}
+
+.dark-mode-github .home span{
+    color: var(--font-khusus-color);
+}
+
+.dark-mode-github .heading span{
+    color: var(--font-khusus-color);
+}
+
+.dark-mode-github header .user .name {
+    
+    color: var(--font-theme-color);
+}
+
+.dark-mode-github header .user .post {
+ 
+    color: var(--font-theme-color);
+}
+.dark-mode-github .about .row .info h3  {
+    color: var(--font-khusus-color);
+}
+
 
 * {box-sizing: border-box;}
 .mySlide {display: none;}
@@ -105,6 +161,7 @@ body {
     overflow-x: hidden;
     padding-left: 35rem;
     background-color: var(--theme-bg-color);
+    /* background-image: url(../images/onepiece/backgorund1.jpg); */
 }
 section {
     min-height: 100vh;
@@ -142,22 +199,6 @@ section {
     font-weight: 600;
 }
 
-.blue-mode {
-    /* background-color: #051622; */
-    /* background-color: #008F95; */
-    background-color: #1BA098;
-    /* --theme-bg-color: #008F95; */
-    --theme-bg-color: #051622;
-    --border-right-color: #333846;
-    --theme-bg-header-color:  #051622;
-    --font-theme-color: #fff;
-}
-
-
-.dark-mode-github {
-    background-color: #0a0c10;
-}
-
 
 /* Header Section */
 
@@ -192,7 +233,7 @@ header {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border: .7rem solid var(--color);
+    border: .7rem solid var(--font-color);
 }
 
 /* bullet  */
@@ -232,12 +273,12 @@ header .user {
 }
 */
 header .user .name {
-    font-size: 2rem;
+    font-size: 1.5rem;
     /* color: #222; */
     color: #1BA098;
 }
 header .user .post {
-    font-size: 2rem;
+    font-size: 1.5rem;
     /* color: #222; */
     color: #1BA098;
 }
@@ -341,7 +382,7 @@ header .navbar ul li a:hover {
 }
 .about .row .counter .box span {
     font-size: 4rem;
-    color: var(--font-color);
+    color: var(--font-about-color);
 }
 .about .row .counter .box h3 {
     font-size: 2rem;
@@ -402,12 +443,37 @@ header .navbar ul li a:hover {
 
 /* Portfolio Section Starts */
 
+/* 
+.portfolio {
+    background-color: rgba(197, 204, 245, 0.7); 
+    background-image: url(../images/onepiece/backgorund1.jpg);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px); 
+    filter: blur(8px); 
+    -webkit-filter: blur(8px);
+    
+}  */
+/* 
+.bg-image-blur {
+    width: 100%;
+    height: 2rem;
+    background-image: url(../images/onepiece/backgorund1.jpg);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px); 
+    filter: blur(8px);
+   -webkit-filter: blur(8px);
+} */
+
+
 .portfolio .box-container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     padding: 2rem 0;
+    
+    /* background-image: url(../images/onepiece/backgorund1.jpg); */
+    /* filter: blur(2px); */
 }
 .portfolio .box-container .box {
     height: 20rem;
@@ -416,14 +482,19 @@ header .navbar ul li a:hover {
     margin: 2rem;
     overflow: hidden;
     cursor: pointer;
+    /* z-index: 2 !important;
+    filter: blur(0px) !important; */
 }
 .portfolio .box-container .box img {
     height: 100%;
     width: 100%;
     object-fit: cover;
+    /* z-index: 3 !important;
+    filter: blur(0px) !important; */
 }
 .portfolio .box-container .box:hover img {
     transform: scale(1.2);
+    /* filter: blur(0px) !important; */
 }
 
 /* Portfolio Section Ends */
