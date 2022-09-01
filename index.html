@@ -34,51 +34,62 @@
 <!-- bagian header dimulai -->
 <header>
     
-    <div class="user">
-
-        <div class="imageslider-container">
-
-            <div class="mySlide fade">
-                <img src="images/profile.png" alt="" style="width: 100%;">
-            </div>
-
-            <div class="mySlide fade">
-                <img src="images/logo-putih.png" alt="" style="width: 100%;">
-            </div>
-
-            <div class="mySlide fade">
-                <img src="images/logo_hitam.png" alt="" style="width: 100%;">
-            </div>
-
-        </div>
-
-        <br>
-
-        <div style="text-align: center;">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div>
-
-        
-        <h3 class="name">CATUR ANGGA ADIYAKSA</h3>
-        <p3 class="post">Full Stuck Developer</p3>
+    <div class="button-menu" style="width: 100%; height: 50px; color: #fff;">
+        <a style="margin-left: 85%;" href="javascript:void(0);" class="icon" onclick="humbergerMenu()">
+            <i class="fa fa-bars fa-5x"></i>
+        </a>
     </div>
-    
+    <div id="humberger-menu">
+        <div class="user">
 
-<nav class="navbar">
-    <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#portfolio">Portofolio</a></li>
-        <li><a href="#contact">Contact</a></li>
-    </ul>
-</nav>
+            <div class="imageslider-container">
+    
+                <div class="mySlide fade">
+                    <img src="images/profile.png" alt="" style="width: 100%;">
+                </div>
+    
+                <div class="mySlide fade">
+                    <img src="images/logo-putih.png" alt="" style="width: 100%;">
+                </div>
+    
+                <div class="mySlide fade">
+                    <img src="images/logo_hitam.png" alt="" style="width: 100%;">
+                </div>
+    
+            </div>
+    
+            <br>
+    
+            <div style="text-align: center;">
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+    
+            
+            <h3 class="name">CATUR ANGGA ADIYAKSA</h3>
+            <p3 class="post">Full Stuck Developer</p3>
+        </div>
+        
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#portfolio">Portofolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>  
+    
 </header>
 <!-- bagian header selesai-->
-
-
+<!-- 
+<div class="button-menu" style="width: 100%; ">
+    <a style="margin-left: 90%;" href="javascript:void(0);" class="icon" onclick="humbergerMenu()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div> -->
 
 <!-- Bagian Home started -->
 <section id="home" class="home">
@@ -284,6 +295,7 @@
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
 <script src="js/map.js"></script>
+<script src="js/button.js"></script>
 
 </body>
 </html>

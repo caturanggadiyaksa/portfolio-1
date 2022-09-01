@@ -1,6 +1,13 @@
 
 /* Media Queries */
 
+
+@media screen and (min-width: 992px) {
+    .button-menu {
+        display: none;
+    }
+  }
+
 @media (max-width:1200px) {
     html {
         font-size: 55%;
@@ -10,8 +17,20 @@
     }
 }
 @media (max-width:991px) {
-    header {
+    /* header {
         left: -120%;
+    } */
+
+    header {
+        position: relative;
+        top: 0;
+        width: 100%;
+
+    }
+   
+
+    #humberger-menu {
+        display: none;
     }
     #menu {
         display: block;
@@ -21,7 +40,16 @@
     }
     body {
         padding: 0;
+        width: 100%;
+        
     }
+
+    .home {
+        padding: 10rem 10rem;
+        min-height: 80vh;
+    }
+
+    
 }
 @media (max-width:768px) {
     html {
