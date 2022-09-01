@@ -77,7 +77,7 @@ Aqua = #008F95
     background-color: #1BA098;
     /* --theme-bg-color: #008F95; */
     --theme-bg-color: #051622;
-    --border-right-color: #333846;
+    --border-right-color: #24b4f7;
     /* --theme-bg-header-color:  #051622; */
     --theme-bg-header-color: #42C2FF;
     --font-theme-color: #fff;
@@ -89,12 +89,15 @@ Aqua = #008F95
     /* color: #fff; */
      --font-theme-color: #fff;
      --font-khusus-color: #1BA098;
+     --border-right-header-color: #333846;
     
 }
 
 .dark-mode-github  header{
     background-color: var(--darkMode--header-color);
+    border-right: 1px solid var(--border-right-header-color);
 }
+
 
 .dark-mode-github .home h3 h1 p{
     color: var(--font-theme-color);
