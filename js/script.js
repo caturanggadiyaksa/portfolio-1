@@ -32,18 +32,37 @@ function bluetema() {
   var element = document.body;
   element.classList.toggle("blue-mode")
 
+  
+
+  var disableBlueMode = document.body;
+
+  disableBlueMode.classList.remove("dark-mode-github", "btr-mode");
+
 }
 
 function darktema() {
   var element = document.body;
   element.classList.toggle("dark-mode-github")
 
+  var disableBlueMode = document.body;
+
+  disableBlueMode.classList.remove("blue-mode", "btr-mode");
   // var tagHeader = document.getElementById("header");
 
   // tagHeader.style.backgroundColor = "#444444";
 
   // var fontBody = document.getElementsByTagName(body);
   // fontBody.style.color = "#fff";
+}
+
+
+function btrTema(){
+  var element = document.body;
+  element.classList.toggle("btr-mode")
+
+  var disableBlueMode = document.body;
+
+  disableBlueMode.classList.remove("blue-mode", "dark-mode-github");
 }
 
 
@@ -54,3 +73,10 @@ $(document).ready(function(){
       $('header').toggleClass('toggle');
     })
    })
+
+
+   $(function() {
+    $(".button").click(function() {
+      // validate and process form here
+    });
+  });

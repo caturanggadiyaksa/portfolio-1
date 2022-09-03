@@ -1,0 +1,54 @@
+.btr-mode {
+    background-color: #1d1c20;
+    --border-right-header-color: #171717;
+    --font-tema-btr: #ed182d;
+    --font-theme-color: #fff;
+}
+
+.btr-mode header {
+    background-color: #090909;
+    border-right: 1px solid var(--border-right-header-color);
+}
+
+
+
+.btr-mode .home h3 h1 p{
+    color: var(--font-theme-color);
+}
+
+.btr-mode .home span{
+    color: var(--font-tema-btr);
+}
+
+.btr-mode .heading span{
+    color: var(--font-tema-btr);
+}
+
+.btr-mode header .user .name {
+    
+    color: var(--font-theme-color);
+}
+
+.btr-mode header .user .post {
+ 
+    color: var(--font-theme-color);
+}
+.btr-mode .about .row .info h3  {
+    color: var(--font-tema-btr);
+}
+
+.btr-mode .btn:hover {
+    background-color: var(--font-tema-btr);
+}
+
+.btr-mode header .navbar ul li a:hover {
+    background: var(--font-tema-btr);
+}
+
+.btr-mode .education .box-container .box i {
+    background: var(--font-tema-btr);
+}
+
+.btr-mode .mySlide img {
+    border: .5rem solid var(--font-tema-btr);
+}

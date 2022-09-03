@@ -49,6 +49,12 @@
         min-height: 80vh;
     }
 
+
+    .btn-thema .btn-tema button {
+        top: 50%;
+        position: fixed;
+    }
+
     
 }
 @media (max-width:768px) {

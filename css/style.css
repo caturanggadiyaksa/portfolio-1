@@ -1,6 +1,14 @@
 /* #051622 #1BA098 #DEB992 */
 
 
+/* btr
+ed182d red
+1d1c20 black
+
+
+*/
+
+
 /* 
 
 ink = #062F4F
@@ -272,16 +280,35 @@ header .navbar ul li a:hover {
 .home {
     display: flex;
     justify-content: center;
-    flex-flow: column;
-    padding: 0 15rem;
+    flex-flow: row;
+    /* padding: 0 15rem; */
+    margin-top: 10rem;
+    min-height: 80vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.home .home-left {
+    margin-left: 5rem;
+    width: 100%;
+    
+    
+}
+
+.home .home-right {
+    width: 100px;
+    position: fixed;
+    text-align: center;
+    right: 5%;
+    z-index: 999;
 }
 .home h3 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--font-theme-color);
     
 }
 .home h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     color: var(--font-theme-color);
     
 }
@@ -289,10 +316,11 @@ header .navbar ul li a:hover {
     color: var(--font-color);
 }
 .home p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--font-theme-color);
     padding: 1rem 0;
 }
+
 
 /* Home Section Ends */
 

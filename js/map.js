@@ -78,3 +78,10 @@ for (const feature of geojson.features) {
 }
 
 
+//add control map
+const geocoder = new MapboxGeocoder({
+    accessToken: mapboxgl.accessToken,
+    mapboxgl: mapboxgl
+});
+
+document.getElementById('geocoder').appendChild(geocoder.onAdd(map));
