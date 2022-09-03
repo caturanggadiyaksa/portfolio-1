@@ -28,9 +28,9 @@ function showSlides() {
 
 
 
-function myFunction() {
+function bluetema() {
   var element = document.body;
-  element.classList.toggle("blue-mode");
+  element.classList.toggle("blue-mode")
 
 }
 

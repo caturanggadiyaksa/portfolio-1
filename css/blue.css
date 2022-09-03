@@ -1,0 +1,19 @@
+.blue-mode {
+    /* background-color: #051622; */
+    /* background-color: #008F95; */
+    /* --theme-bg-color: #008F95; */
+    /* --theme-bg-header-color:  #051622; */
+    background-color: #1BA098;
+    --blue-theme-bg-color: #051622;
+    --border-right-color: #24b4f7;
+    /* --theme-bg-header-color: #42C2FF;
+    --font-theme-color: #fff; */
+}
+
+.blue-mode header {
+    background-color: var(--blue-theme-bg-color);
+    border-right: 1px solid var(--border-right-color);
+}
+
+
+

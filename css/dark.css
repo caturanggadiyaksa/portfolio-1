@@ -1,0 +1,40 @@
+
+.dark-mode-github {
+    background-color: #171717;
+    /* color: #fff; */
+     --font-theme-color: #fff;
+     --font-khusus-color: #1BA098;
+     --border-right-header-color: #333846;
+    
+}
+
+.dark-mode-github  header{
+    background-color: var(--darkMode--header-color);
+    border-right: 1px solid var(--border-right-header-color);
+}
+
+
+.dark-mode-github .home h3 h1 p{
+    color: var(--font-theme-color);
+}
+
+.dark-mode-github .home span{
+    color: var(--font-khusus-color);
+}
+
+.dark-mode-github .heading span{
+    color: var(--font-khusus-color);
+}
+
+.dark-mode-github header .user .name {
+    
+    color: var(--font-theme-color);
+}
+
+.dark-mode-github header .user .post {
+ 
+    color: var(--font-theme-color);
+}
+.dark-mode-github .about .row .info h3  {
+    color: var(--font-khusus-color);
+}
