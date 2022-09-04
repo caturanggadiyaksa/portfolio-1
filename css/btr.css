@@ -52,3 +52,13 @@
 .btr-mode .mySlide img {
     border: .5rem solid var(--font-tema-btr);
 }
+
+
+.btr-mode .about .row .counter .box span {
+    color: var(--font-tema-btr);
+}
+
+
+.btr-mode .contact .row .content .info i{
+    color: var(--font-tema-btr);
+}

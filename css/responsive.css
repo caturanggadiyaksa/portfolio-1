@@ -45,15 +45,26 @@
     }
 
     .home {
-        padding: 10rem 10rem;
-        min-height: 80vh;
+        padding: 0rem 10rem;
+        min-height: 70vh;
+        margin-top: 0rem;
+        
     }
+
+    .home .home-left {
+        position: relative;
+        margin-top: -30rem;
+    }
+    
+
 
 
     .btn-thema .btn-tema button {
         top: 50%;
         position: fixed;
     }
+
+    
 
     
 }

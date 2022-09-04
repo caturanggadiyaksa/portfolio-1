@@ -282,8 +282,8 @@ header .navbar ul li a:hover {
     justify-content: center;
     flex-flow: row;
     /* padding: 0 15rem; */
-    margin-top: 10rem;
-    min-height: 80vh;
+    margin-top: 0rem;
+    min-height: 100vh;
     align-items: center;
     justify-content: center;
 }
@@ -301,6 +301,8 @@ header .navbar ul li a:hover {
     text-align: center;
     right: 5%;
     z-index: 999;
+    display: flex;
+    flex-flow: row;
 }
 .home h3 {
     font-size: 2rem;

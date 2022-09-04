@@ -28,7 +28,7 @@ function showSlides() {
 
 
 
-function bluetema() {
+function blueTema() {
   var element = document.body;
   element.classList.toggle("blue-mode")
 
@@ -40,7 +40,7 @@ function bluetema() {
 
 }
 
-function darktema() {
+function darkTema() {
   var element = document.body;
   element.classList.toggle("dark-mode-github")
 

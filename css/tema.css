@@ -31,3 +31,25 @@
     border-radius: 50%; 
 }
 
+.home .home-right .all-button-tema {
+    width: 10rem;
+    height: 50rem;
+}
+
+.home .home-right .all-button-tema .button-box {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.home .home-right .all-button-tema .button-box button {
+    padding: 1rem;
+}
+
+.all-button-tema {
+    display: none;
+}
+
