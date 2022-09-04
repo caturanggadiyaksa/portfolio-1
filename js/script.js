@@ -7,7 +7,6 @@ function showSlides() {
   let i;
   let slides = document.getElementsByClassName("mySlide");
   // let dots = document.getElementsByClassName("dot");
-
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }
@@ -18,7 +17,6 @@ function showSlides() {
 
   // for (i = 0; i < dots.length; i++) {
   //   dots[i].className = dots[i].className.replace( " active", "");
-
   // }
 
   slides[slideIndex-1].style.display = "block";
@@ -31,8 +29,6 @@ function showSlides() {
 function blueTema() {
   var element = document.body;
   element.classList.toggle("blue-mode")
-
-  
 
   var disableBlueMode = document.body;
 
